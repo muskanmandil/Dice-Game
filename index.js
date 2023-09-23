@@ -1,11 +1,11 @@
 // Player 1 Dice
 var randomNumber1 = Math.ceil(Math.random()*6);
-var randomImage1 = "assets/dice" + randomNumber1 + ".png" ;
+var randomImage1 = "assets/images/dice" + randomNumber1 + ".png" ;
 document.querySelectorAll(".dice")[0].setAttribute("src", randomImage1);
 
 // Player 2 Dice
 var randomNumber2 = Math.ceil(Math.random()*6);
-var randomImage2 = "assets/dice" + randomNumber2 + ".png" ;
+var randomImage2 = "assets/images/dice" + randomNumber2 + ".png" ;
 document.querySelectorAll(".dice")[1].setAttribute("src", randomImage2);
 
 // Conclusion Statement
